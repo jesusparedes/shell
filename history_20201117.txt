@@ -1,0 +1,633 @@
+echo Hello world
+echo '\
+\
+echo Hello world
+echo hola; echo adios
+echo 'Hello ; echo hello2
+echo $SHELL
+echo "$SHELL\
+echo $SHELL"
+echo `date`
+SHELL=HELLO
+echo SHELL
+echo $SHELL
+printenv
+history
+ged .history
+gedit .history
+echo hola
+echo hola mundo
+echo hola ; echo mundo
+echo `date`
+SHELL=10
+echo SHELL
+echo $SHELL
+echo "SHELL"
+A=19
+echo A
+echo $A
+echo Hola Mundo
+echo Hola ; echo Mundo
+echo `date`
+SHELL=JESUS
+echo SHELL
+echo $SHELL
+echo "SHELL"
+echo "$SHELL"
+echo 'SHELL'
+gedit .history
+echo Hola Mundo
+echo Hola ; echo Mundo
+SHELL=Hola
+echo $SHELL
+echo "SHELL"
+echo 'SHEL'
+echo 'SHELL'
+echo `date`
+echo %SHELL
+%SHELL
+echo $TERM
+whoami
+echo $host
+echo $HOST
+echo $USER
+printenv HOST
+echo hola
+echo 'hola mi directorio es $HOME'
+echo "hola mi directorio es $HOME"
+echo 'date'
+echo "date"
+echo `date`
+echo "$(date)"
+echo '$(date)'
+gidit .history
+gedit .history
+echo hola
+echo "Estas es mi $HOME"
+echo "Estas es mi 'HOME'\
+echo 'Estas es mi $HOME'
+echo 'Estas es mi $HOME'
+echo "Estas es mi $HOME"
+gedit .history
+echo hola ; echo adios
+echo $SHELL
+echo "world\
+is nice\
+hola jesus\
+pepe"
+echo "Hola \\
+me llamo \
+jesus\
+"
+echo "Hola \\
+me llamo \\
+jesus \
+"
+echo "This is \n nueva linea\
+"
+echo "This is \t nueva linea\
+"
+echo this ; echo that
+echo this \; echo that
+echo "This is \\ new line\
+"
+echo "Esto son unas \" comillas dobles"
+cat /porc/cpuinfo
+cat /etc/os-release
+cd Data
+cd 
+cd Data/shell
+cd ..(
+cd ../
+cd 
+cd Data/shell
+cd -
+cd 
+cd Data/cd 
+cd Data/
+cd shell
+cd -
+cd 
+cd Data
+cd shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+gedit Text_example.txt
+cd 
+cat Data/shell/Text_example.txt
+cat books/
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt Data/opentraveldata/optd_aircraft.csv
+cd Documents/cd ../
+cd Data/airline_tickets
+cd ../
+cd 
+cd Data/opentraveldata/op
+pwd
+cd /home/dsc/Data/opentraveldata
+cd 
+cd Data/opentraveldata
+cd
+cd Data/airline_tickets
+cd
+ls
+cd books/ls
+ls
+ls anaconda3
+cd anaconda3
+ls
+ls -1
+ls -s
+ls -ls
+ls -s1
+cd 
+ls 
+ls -a
+cd .
+cd 
+ls -l
+ls -la
+ls D
+ls Data
+ls Data/README.md -l
+ls -aS
+ls -aSl
+ls -aSr
+ls -aSlr
+ls -atlr
+ls -atl
+touch file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+./file00
+mkdir my_first_dir
+ls -l
+mkdir my_first_dir2 my_first_dir3
+ls -l
+mkdir -p my_second_directory/one
+ls -l
+rm file00
+rm my_first_dir
+rm -r my_first_dir
+rm -r my_first_dir2
+rm -r my_first_dir3
+ls -l
+rm -r my_second_directory
+ls -l
+touch fichero2
+c fichero2 fichero3
+cp fichero2 fichero3
+ls
+rm fichero2
+ls
+cp fichero3 fichero2
+mkdir my_first_dir
+cp fichero3 fichero2 my_first_dir
+ls
+ls my_first_dir
+mv fichero2 fichero002
+ls
+mv fichero 002 fichero2
+mv fichero002 fichero2
+ls
+mv my_first_dir my_firts_moved_dir
+ls
+mv fichero1 fichero3 my_first_moved_dir
+mv fichero1 fichero3 my_firts_moved_dir
+mv fichero2 fichero3 my_firts_moved_dir
+rm my_firts_moved_dir
+rm -r my_firts_moved_dir
+mkdir my_dir
+ls -l
+touch fi1
+touch fi2
+ls -l
+mv fi1 fi2 my_dir
+ls -l
+rm fi1
+cd my_dir
+ls
+rm fi1
+rm fi2
+cd 
+mkdir first_dir
+ls
+rm my_dir
+rm -r my_dir
+ls
+cd first_dir
+touch text_file
+ls
+ls -l
+chmod g+x
+chmod g+x text_file
+ls -l
+chmod w+x text_file
+ls -l
+chmod o+w text_file
+ls -l
+mkdir sub1
+ls
+mkdir sub2 text file
+ls
+rm -r text
+ls
+rm -r file
+ls
+mkdir text_file
+mkdir textfile
+ls
+cp textfile sub1
+mv textfile sub1
+ls
+cd sub1/ls
+cd sub1
+ls
+cp text_file text_file2 sub2
+../
+cd
+cd first_dir
+cp text_file text_file2 sub2
+mv text_file text_file2 sub2
+ls
+cd sub1
+ls
+mv textfile textfile2 sub2
+ls
+cd 
+ls
+cd
+git config
+git config --global user.name "Jesus Paredes"
+git config --global user.email "jesusparedes14@gmail.com"
+cat .gitconfig
+gedit .gitconfig
+cat .history > 2020-11-11.txt
+gedit .history
+ls
+cd
+ls
+ls -l
+chmod 777 2020-11-11.txt
+ls
+2020-11-11.txt
+echo 2020-11-11.txt
+echo "2020-11-11.txt"
+`2020-11-11.txt`
+cat 2020-11-11.txt
+echo "Hola \
+Mundo soy Vaness\
+a"
+echo "Hola \\
+Mundo soy vaness\\
+a"
+echo Jesus \; echo "Se muestra\
+!\
+"
+echo Jesus \; echo "Se muestra"
+echo Jesus ; echo "Se muestra"
+echo "hola juean \n hola\
+"
+echo "hola juean \n hola"
+echo "hola juean \t hola"
+ls
+cd Data/shell/
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cd 
+cat Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt
+cd Data/opentraveldata
+cat ../shell/Text_example.txt
+cd 
+cd Data/opentraveldata
+../shell/Text_example.txt
+ls
+ls -l
+cd ../
+ls -l
+cd opentraveldata
+cat /home
+cat 
+cat /home/dsc/Data/shell/Text_example.txt
+pwd
+cat -n ~dsc/Data/shell/Finn.txt
+cd 
+ls
+ls -1
+ls -s
+ls -S
+ls -lS
+ls -Sl
+ls -lSa
+ls -l
+ls -lt
+ls -t
+ls -ltX
+ls -X
+ls
+ls -l
+chmod o-r,o-w,o-x 2020-11-11.txt
+ls -l
+chmod 777 2020-11-11.txt
+ls -l
+ls
+rm -r first_dir
+ls
+mkdir this that
+ls
+rv -r this that
+rm -r this
+rm -r that
+ls
+mkdir one/two/three
+mkdir -p one
+ls
+cd one
+ls
+rm -r one
+cd
+rm -r one
+ls
+touch file1 file2
+ls
+cp file2 file3
+ls
+mkdir borrar
+ls
+mv file1 file2 file3 borrar
+ls
+cd borrar
+ls
+rm file1 file2 file3
+ls
+cd
+mkdir first_dir
+ls
+cd first_dir/touch text_file.txt
+cd first_dir/
+touch text_file.txt
+ls
+ls -l
+chmod g+x,o+w text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file sub1
+cp -r text_file.txt sub1
+ls
+cd sub1
+ls
+cd ..\
+cd ../
+cd sub1
+ls
+mv text_file.txt sub2/text_file.txt.2
+mv text_file.txt sub2
+ls
+cd ../
+ls
+cd sub1
+ls
+rm -r sub2
+ls
+cd ../
+ls
+mv text_file.txt sub2/text_file.txt.2
+cd sub2/ls
+cd sub2
+ls
+cd ../
+cp sub2 sub3
+ls
+cp -r sub2 sub3
+cd sub3
+ls
+cd ../
+cd sub2
+ls
+cd ../
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+cd sub2
+ls
+cd ../
+mv sub2/text_file.txt.backup ./.text_file.backup
+ls
+ls -a
+rm -r sub2
+ls
+cat .history
+gedit .history
+mkdir first_dir
+la
+ls
+cd
+ls
+rm -r first_dir
+ls
+cd
+mkdir first_dir
+ls
+touch first_dir/text_file.txt
+cd first_dir/ls
+cd first_dir
+ls
+ls -l
+chmod g+x,o+w text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt sub1
+cd sub1
+ls
+cd ../
+ls
+mv text_file.txt sub2/text_file.txt2
+cd sub2/
+ls
+cd ../
+cp sub1 sub3
+cp -rsub1 sub3
+cp -r sub1 sub3
+cd sub1
+ls
+cd ../
+cd sub3
+ls
+cd ../
+mv ./sub2/text_file.txt2 ./sub2/text_file.backup
+cd sub2
+ls
+cd ../
+mv ./sub2/text_file.backup ./.text_file.backup
+ls -a
+rm -r sub2
+ls
+ls -a
+gedit .history
+.history
+gedit .history
+pwd
+mkdir git
+ls
+rm -r first_dir
+cd git
+echo "# shell" >> README.md
+ls
+cat README.md
+git init
+git config --get.user.name
+git config --get user.name
+ls
+git add README.md
+git status
+git commit -m 
+git commit -m "first commit adding README.md"
+git status
+git remote add origin https://github.com/jesusparedes/shell.git
+git push -u origin master
+gedit README.md
+git status
+cd 
+pwd
+cd Data
+cd us_dot
+cd traffic
+cd ..
+cd opentraveldata
+head optd_airlines.csv
+tail -n1 optd_airlines.csv
+less optd_airlines.csv
+cd
+cd Data
+cd shell
+ls
+less optd Finn.txt
+cd
+cd Data/opentraveldata
+ls
+less optd optd_aircraft.csv
+echo $PATH
+ll
+ls
+cd borrar
+ls
+cd ..&
+cd ../
+cd
+cd git
+ls
+cd 
+mkdir borrar2
+ls
+cd borrar2
+ls
+echo "# borrar" >> README.md
+ls
+git init
+git add README.md
+git commit -m "First Commit"
+git status
+git remote add origin https://github.com/jesusparedes/borrar.git
+git push -u origin main
+git remote add origin https://github.com/jesusparedes/borrar2.git
+cd
+ls
+rm -m borrar2
+rm borrar2
+rm --
+rm --help
+rm -r borrar2
+ls
+cd borrar
+ls
+rm -r borrar
+ls
+cd
+rm -r borrar
+ls
+cd git
+ls
+gedit README.md
+git status
+git add README.md
+status
+git status
+git commit 
+ls
+cd git 
+ls
+cat README.md
+git commit -m "nuevo commit"
+git status
+gedit README.md
+vim README.md
+git status
+git add README.md
+git commit -m "hols"
+git push -u origin master
+cd
+cd Data
+cd shell
+less Finn.txt
+cd
+cd Data
+ls
+cd opentraveldata
+ls
+less optd_aircraft.csv
+echo @Hola Mundo" > pp.txt
+echo "Hola Mundo" > pp.txt
+ls
+head pp.txt
+echo "Adios jesus" > pp.txt
+head pp.txt
+rm pp.txt
+ls
+touch pp2.txt
+ls
+gedit pp.txt
+head pp.txt
+rm pp.txt pp2.txt
+ls
+cd git
+ls
+cd 
+echo $HISTFILE
+tail -n 5 /home/dsc/.history
+ls
+ls -a
+ls -lrt -a
+ls -l /home/dsc/.history
+cp /home/dsc/.history home/git
+cd
+cd git
+cd
+cp .history ./git
+cd git
+ls
+cd
+ls
+cd git
+ls
+cd
+cp .history /home/git
+cd git
+cp .history
+cp .history ./
+cp .history ~/git
+ls
+cd
+cp /home/dsc/.history /home/dsc/git
+cd git
+ls
+cp /home/dsc/.history history_20201117.txt
