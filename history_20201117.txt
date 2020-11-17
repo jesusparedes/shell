@@ -631,3 +631,174 @@ cp /home/dsc/.history /home/dsc/git
 cd git
 ls
 cp /home/dsc/.history history_20201117.txt
+ls
+git status
+git add history_20201117.txt
+git commit -m "first commit"
+git push origin master
+clear
+history -i
+history -f
+history -n 
+clear
+cd
+ls -l
+cd Data
+ll
+ls
+cd shell
+ls
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+echo "jesusparedes" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -l
+wc Text_example.txt
+cd
+cd Data/opentraveldata/ls
+cd Data/opentraveldata/
+ls
+tail -c -1k optd_aircraft.csv
+tail -c -1k optd_aircraft.csv | wc
+head -c 1k optd_aircraft.csv|wc
+head -c 1k optd_aircraft.csv
+head -c 1k optd_aircraft.csv|wc
+clear
+ls
+ll
+ls -lrt optd_por_public.csv
+ls -lrt optd_por_public.csv | touch largest_file.txt
+ls
+cat largest_file.txt
+gedit largest_file.txt
+rm largest_file.txt
+ls
+touch largest_file.txt
+ls
+ls -lrt optd_por_public.csv >> largest_file.txt
+ls
+ls largest_file.txt
+cat largest_file.txt
+ls
+cd ../
+ls
+cd
+cd Data
+ls
+cd shell
+ls
+wc -5l Text_example.txt | wc -w
+wc -l5 Text_example.txt | wc -w
+wc 5 -l Text_example.txt | wc -w
+wc -l Text_example.txt | wc -w
+cat Text_example.txt
+wc -l -n5 Text_example.txt | wc -w
+cd ../
+cd
+cd Data/opentraveldata
+ls
+rm largest_file.txt
+ls
+ls -lrt
+ls -lrts
+ls -lrt | head -n 1
+ls -lrt | tail -n 1
+ls -sSl
+ls -sSlr
+ls -sSl
+ls -lrtS | tail -n 1
+ls -lrtS | tail -n 1 >> touch largest_file.txt
+ touch largest_file.txt
+ls -lrtS | tail >> touch largest_file.txt
+cat largest_file.txt
+ls -lrtS | tail -n 1 >> touch largest_file.txt
+cat largest_file.txt
+ls
+ls -lrtS | tail -n 1 >> largest_file.txt
+cat largest_file.txt
+cd 
+cd Data
+cd shell
+head -n 5 Text_example.txt
+head -n 5 Text_example.txt | wc -w
+ls -lrtS | tail -n 1 >> /home/dsc/git/largest_file.txt
+cd
+cd git
+la
+cd
+cd Data/shell
+ls
+head -n 5 Text_example.txt 
+head -n 5 Text_example.txt | wc -w
+head -n 5 Text_example.txt | wc -w >> /home/dsc/git/largest_file.txt
+cd
+cd git
+cat largest_file.txt
+cd
+cd Data
+cd shell
+ls
+head -n 3 Text_example.txt
+head -n 5 Finn.txt | wc -w >> /home/dsc/git/largest_file.txt
+cd
+cat -n
+cd
+cd Data
+ls
+cd shell
+ls
+cat -n Data/Shell/Fin.txt |head -n 3
+cd
+cat -n Data/Shell/Fin.txt |head -n 3ç
+cat -n Data/Shell/Fin.txt |head -n 3
+clear
+cd Data
+cd shell
+ls
+cat Text_example.txt
+cat Text_example.txt > cat -n /home/dsc/git/Text_example.txt
+cd
+cp /Data/shell/Text_example.txt > /home/dsc/git/Text_example.txt
+cat -n /Data/shell/Text_example.txt
+cd Data/shell
+ls
+cd
+cat Data/shell/Text_example.txt
+cat Data/shell/Text_example.txt -n
+cat Data/shell/Text_example.txt -n | /home/dsc/git/Text_example.txt
+cat Data/shell/Text_example.txt -n | touch /home/dsc/git/Text_example.txt
+cd git
+ls
+cat Text_example.txt
+cd
+cat Data/shell/Text_example.txt -n >> touch /home/dsc/git/Text_example.txt
+cat git/Text_example.txt
+cd git
+ls
+gedit Text_example.txt
+cd
+cat Data/shell/Text_example.txt -n >> ./git/Text_example.txt
+cd git
+ls
+cat Text_example.txt
+cd
+cat Data/shell/Text_example.txt Data/shell/Text_example.txt >> ./git/Text_example2.txt
+cat git/Text_example2.txt
+echo date
+echo $date
+echo "$date"
+echo%date
+echo %date
+echo $(date)
+touch git/plantilla.txt
+cd git
+ls
+cd
+echo "This file is created by KSchool on: " >> git/plantilla.txt
+cat git/plantilla.txt
+echo $(date) >> git/plantilla.txt
+cat git/plantilla.txt
+cd git
+ls -lrt
+cp $HISTFILE ./history_20201117.txt
