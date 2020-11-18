@@ -1,3 +1,0 @@
--rw-rw-r-- 1 dsc dsc 613K abr  2  2018 Finn.txt
-35
-16
