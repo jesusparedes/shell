@@ -802,3 +802,152 @@ cat git/plantilla.txt
 cd git
 ls -lrt
 cp $HISTFILE ./history_20201117.txt
+cat history_20201117.txt
+git add history_20201117.txt
+git commit -m "first"
+git push origin master
+git status
+git add Text_example.txt Text_example2.txt largest_file.txt plantilla.txt
+git commit -m "frist"
+git push origin master
+exit
+cd git
+ls
+cd
+cd Dat
+cd Data
+cd opentraveldata
+cd
+ls -lrtS Data/opentraveldata
+cat touch
+rm touch
+rm largest_file.txt
+rm Data/opentraveldata/largest_file.txt
+clear
+ls -lrtS Data/opentraveldata
+rm Data/opentraveldata/touch
+clear
+ls -lrtS Data/opentraveldata
+ls -ltS Data/opentraveldata
+ls -lrtS Data/opentraveldata
+tail -n 1 Data/opentraveldata
+ls -lrtS -n 1 Data/opentraveldata
+clear
+ls -lrtS Data/opentraveldata
+ls -lrtS Data/opentraveldata | tail -n 1
+ls -lrtS Data/opentraveldata | tail -n 1 >> git/largest_file.txt
+head git/largest_file.txt
+ls -lrtS Data/opentraveldata | tail -n 1 > git/largest_file.txt
+cat git/largest_file.txt
+cd Data/shell
+ls
+cd 
+cat Data/shell/Finn.txt
+head -n 5 Data/shell/Finn.txt
+head -n 5 Data/shell/Finn.txt | wc -w
+cat Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt | head -n 3
+ls -lrtS Data/opentraveldata | tail -n 1 > git/Quick_exercises1
+cd git
+ls
+rm largest_file.txt
+cat Quick_exercises1
+cd
+head -n 5 Data/shell/Finn.txt | wc -w >> git/Quick_exercises2
+cat git/Quick_exercises2
+cat -n Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt | head -n 3
+cat -n Data/shell/Text_example.txt | head -n 3 >> git/Quick_exercises3
+cat git/Quick_exercises3
+cd git
+ls
+cd 
+cat Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt >> git/Quick_exercises4
+cat git/Quick_exercises4
+cat Data/shell/Text_example.txt Data/shell/Text_example.txt>> git/Quick_exercises5
+cat git/Quick_exercises5
+echo $(date)
+echo $(date) | echo "Jesus This file is created by KSchool on: >> git/Quick_exercise7
+echo $(date) | echo "Jesus This file is created by KSchool on: ">> git/Quick_exercise7
+cat git/Quick_exercise7
+rm git/Quick_exercise7
+echo "Jesus This file is created by KScholl on:" >> touch git/Quick_exercise7
+echo "Jesus This file is created by KScholl on:" >> git/Quick_exercise7
+cat git/Quick_exercise7
+echo $(date) >> git/Quick_exercise7
+cat git/Quick_exercise7
+echo "Jesus This file is created by KScholl on:\c" >> git/Quick_exercise7
+echo $(date) >> git/Quick_exercise7
+cat git/Quick_exercise7
+echo "Jesus This file is created by KScholl on:\c" > git/Quick_exercise7
+echo $(date) > git/Quick_exercise7
+cat git/Quick_exercise7
+echo "Jesus This file is created by KScholl on:\c" > git/Quick_exercise7
+echo $(date) >> git/Quick_exercise7
+cat git/Quick_exercise7
+history
+history -n 20
+history
+man history
+history -n 20
+history | tail -n 20
+history | tail -n 26
+history | tail -n 20 >> git/Quick_exercise8
+cat git/Quick_exercise8
+cat Data/shell/Text_example.txt
+cat Data/shell/Text_example.txt | head -n 4
+cat Data/shell/Text_example.txt | head -n 4 | tail -n 2
+cat Data/shell/Text_example.txt | head -n 4 | tail -n 2 >> git/Quick_exercise9
+cat git/Quick_exercise9
+cd Data
+ls
+cd opentraveldata
+ls
+cat optd_aircraft.csv
+cd 
+cat Data/opentraveldata/optd_aircraft.csv | wc -l >> git/Quick_exercises10
+cat git/Quick_exercises10
+cd git
+la
+cat Text_example
+cat Text_example.txt
+cat Text_example2.txt
+cat plantilla.txt
+rm plantilla.txt Text_example2.txt Text_example.txt
+ls
+ls -lrt
+cat Quick_exercises10
+cat Quick_exercises9ç
+cat Quick_exercises9
+cat Quick_exercises8
+cat Quick_exercises2
+cat Quick_exercises3
+cat Quick_exercises4
+cat Quick_exercises5
+cat Quick_exercises6
+ls
+ls -lrt
+cat Quick_exercises7
+cat Quick_exercises4
+cat Quick_exercises5
+cat Quick_exercise6
+ls
+ls -lrt
+cat Quick_exercise7
+cat Quick_exercise8
+cat Quick_exercise9
+cat Quick_exercise10
+cat Quick_exercises10
+ls -lrt
+git status
+git add Quick_exercises1 Quick_exercises2 Quick_exercises3 Quick_exercises4 Quick_exercises5 Quick_exercise7 Quick_exercise8 Quick_exercise9 Quick_exercises10
+git commit -m "Ejercicios"
+git push origin master
+git status
+git rm Text_example2.txt Text_example.txt largest_file.txt plantilla.txt
+git commit -m "borrar"
+git push origin master
+echo $HISTFILE
+cp /home/dsc/.history history_20201117.txt
