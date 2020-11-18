@@ -1,0 +1,16 @@
+  857  echo "Jesus This file is created by KScholl on:\c" >> git/Quick_exercise7
+  858  echo $(date) >> git/Quick_exercise7
+  859  cat git/Quick_exercise7
+  860  echo "Jesus This file is created by KScholl on:\c" > git/Quick_exercise7
+  861  echo $(date) > git/Quick_exercise7
+  862  cat git/Quick_exercise7
+  863  echo "Jesus This file is created by KScholl on:\c" > git/Quick_exercise7
+  864  echo $(date) >> git/Quick_exercise7
+  865  cat git/Quick_exercise7
+  866  history
+  867  history -n 20
+  868  history
+  869  man history
+  870  history -n 20
+  871  history | tail -n 20
+  872  history | tail -n 26
